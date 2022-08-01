@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.08.01 a las 04:59:28 PM CDT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="https:/com.mx.uv.calculadora/calculadora">
+    <schemaBindings map="false">
+      <package name="https.com_mx_uv_calculadora.calculadora"/>
+    </schemaBindings>
+    <bindings scd="tns:SumaRequest">
+      <class ref="https.com_mx_uv_calculadora.calculadora.SumaRequest"/>
+    </bindings>
+    <bindings scd="tns:SumaResponse">
+      <class ref="https.com_mx_uv_calculadora.calculadora.SumaResponse"/>
+    </bindings>
+    <bindings scd="tns:RestaRequest">
+      <class ref="https.com_mx_uv_calculadora.calculadora.RestaRequest"/>
+    </bindings>
+    <bindings scd="tns:RestaResponse">
+      <class ref="https.com_mx_uv_calculadora.calculadora.RestaResponse"/>
+    </bindings>
+    <bindings scd="tns:MultiplicacionRequest">
+      <class ref="https.com_mx_uv_calculadora.calculadora.MultiplicacionRequest"/>
+    </bindings>
+    <bindings scd="tns:MultiplicacionResponse">
+      <class ref="https.com_mx_uv_calculadora.calculadora.MultiplicacionResponse"/>
+    </bindings>
+    <bindings scd="tns:DivisionRequest">
+      <class ref="https.com_mx_uv_calculadora.calculadora.DivisionRequest"/>
+    </bindings>
+    <bindings scd="tns:DivisionResponse">
+      <class ref="https.com_mx_uv_calculadora.calculadora.DivisionResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

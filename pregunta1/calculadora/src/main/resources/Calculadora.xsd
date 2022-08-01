@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="https:/com.mx.uv.calculadora/calculadora" 
+           xmlns:tns="https://com.mx.uv.calculadora/calculadora" 
+           elementFormDefault="qualified">
+    <xs:element name="SumaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Valora" type="xs:int" />
+                <xs:element name="Valorb" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="SumaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="respuesta" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RestaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Valora" type="xs:int" />
+                <xs:element name="Valorb" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RestaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="respuesta" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="MultiplicacionRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Valora" type="xs:int" />
+                <xs:element name="Valorb" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="MultiplicacionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="respuesta" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DivisionRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Valora" type="xs:int" />
+                <xs:element name="Valorb" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="DivisionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="respuesta" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>  
+</xs:schema>
